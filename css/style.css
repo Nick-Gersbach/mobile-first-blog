@@ -1,0 +1,112 @@
+/* Global Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+h4 {
+    text-align: center;
+    margin-top: .5rem;
+    font-style: italic;
+}
+
+/* Header Settings */
+
+header {
+    background: black;
+    padding: 1rem;
+}
+
+/* nav settings */
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+   text-decoration: none;
+}
+
+/* Blog Settings */
+
+#blog .post {
+    margin-top: 4.5rem;
+}
+
+#blog .post img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+#blog .post h3 {
+   font-size: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+   text-align: center;
+}
+
+#blog .post .read-more{
+    text-align: center;
+    margin-top: 1rem;
+ }
+
+ #blog .post a{
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+ }
+
+ #archives {
+     margin-top: 3rem;
+     -webkit-box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 31px 0px rgba(0,0,0,0.75);
+
+ }
+
+ #archives h2 {
+     text-align: center;
+     margin-top: 3rem;
+ }
+
+ #archives .months {
+     margin-top: 2rem;
+     line-height: 2.5;
+     padding-left: 2rem;
+}
+
+#archives .months h3 {
+    text-decoration: underline;
+    
+}
+
+footer {
+    color: white;
+    margin-top: 2rem;
+    padding: 2em;
+    background: black;
+    text-align: center;
+    font-weight: 600;
+}
